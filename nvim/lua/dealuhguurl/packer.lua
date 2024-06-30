@@ -47,8 +47,7 @@ return require('packer').startup(function(use)
     use 'nvim-lua/plenary.nvim'
 
     -- ColorSchemes
-    use 'folke/tokyonight.nvim'
-    use 'catppuccin/nvim'
+    use 'dealuhguurl/nightfox.nvim'
    
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
