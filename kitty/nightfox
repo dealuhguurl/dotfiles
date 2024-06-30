@@ -1,0 +1,35 @@
+foreground #cdcecf
+background #192330
+cursor #a9b1d6
+
+#: Black
+color0 #393b44
+color8 #393b44
+
+#: Red
+color1 #c94f6d
+color9 #c94f6d
+
+#: Green
+color2 #81b29a
+color10 #81b29a
+
+#: Yellow
+color3 #dbc074
+color11 #dbc074
+
+#: blue
+color4 #719cd6
+color12 #719cd6
+
+#: magenta
+color5 #9d79d6
+color13 #9d79d6
+
+#:cyan
+color6 #63cdcf
+color14 #63cdcf
+
+#: white
+color7 #dfdfe0
+color15 #dfdfe0
