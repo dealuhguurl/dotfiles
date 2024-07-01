@@ -54,12 +54,11 @@
     enable = true;
     displayManager.lightdm.enable = true;
     windowManager.i3.enable = true;
-    windowManager.i3.configFile = ./i3/i3status.conf;
   }; 
 
   # Enabling pipewire 
   # rkit options but recommended
-  #hardware.pulseaudio.enable = false; 
+  hardware.pulseaudio.enable = false; 
   security.rtkit.enable = true;
   services.pipewire = {
     enable = true;
@@ -67,7 +66,7 @@
     alsa.support32Bit = true;
     pulse.enable = true;
     # if you want use jack apps uncomment this
-    # jack.enable = true;
+    jack.enable = true;
   };
   hardware.bluetooth.enable = true;
   hardware.bluetooth.powerOnBoot = true;
