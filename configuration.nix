@@ -134,6 +134,7 @@
     busybox
     lshw
     gtk2
+    xcompmgr
   ];
 
   # Enable & Load NVIDIA DRIVERS
