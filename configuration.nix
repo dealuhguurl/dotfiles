@@ -58,7 +58,6 @@
 
   # Enabling pipewire 
   # rkit options but recommended
-  hardware.pulseaudio.enable = false; 
   security.rtkit.enable = true;
   services.pipewire = {
     enable = true;
@@ -68,6 +67,7 @@
     # if you want use jack apps uncomment this
     jack.enable = true;
   };
+  hardware.pulseaudio.enable = false; 
   hardware.bluetooth.enable = true;
   hardware.bluetooth.powerOnBoot = true;
   services.blueman.enable = true;
@@ -99,16 +99,13 @@
   environment.systemPackages = with pkgs; [
     alsa-utils 
     i3
-    i3status
     i3lock
     dmenu
     gcc 
     neovim
     brave
     git
-    neofetch
     lua-language-server
-    unzip
     clang-tools
     feh
     nodejs_22
@@ -120,7 +117,6 @@
     flameshot
     texlivePackages.fontawesome5
     nerdfonts
-    linuxKernel.packages.linux_zen.nvidia_x11
     mpv
     discord
     xfce.thunar
@@ -135,8 +131,9 @@
     xdg-desktop-portal-gtk
     lightdm-gtk-greeter
     lxappearance
-    pciutils
+    busybox
     lshw
+    gtk2
   ];
 
   # Enable & Load NVIDIA DRIVERS
