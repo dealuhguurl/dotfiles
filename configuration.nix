@@ -100,6 +100,7 @@
     alsa-utils 
     i3
     i3lock
+    xss-lock
     dmenu
     gcc 
     neovim
