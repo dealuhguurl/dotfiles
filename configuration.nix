@@ -127,6 +127,7 @@
     blueman
     bluez-alsa
     pasystray
+    pavucontrol
     networkmanagerapplet
     flatpak
     fuse
