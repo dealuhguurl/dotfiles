@@ -115,6 +115,7 @@
     keepassxc
     steam
     python3
+    python312Packages.pip
     flameshot
     texlivePackages.fontawesome5
     nerdfonts
