@@ -17,4 +17,5 @@ xcompmgr &
 feh --bg-fill ~/Downloads/wallpapers/helmet.webp &
 xrandr --output HDMI-0 --mode 1920x1080 --rate 144.00 --primary
 polybar &
+xss-lock --transfer-sleep-lock -- i3lock --nofork &
 
