@@ -16,8 +16,7 @@ vim.opt.relativenumber = true
 vim.opt.scrolloff = 8
 
 -- ColorScheme
--- edit ~/.local/share/nvim/site/pack/packer/start/tokyonight.nvim/lua/tokyonight/colors/night.lua
---vim.cmd[[colorscheme tokyonight-night]]
+--vim.cmd[[colorscheme onedark]]
 
 vim.cmd[[au FileType * set fo-=c fo-=r fo-=o]]
 --vim.cmd[[set colorcolumn=80]]
