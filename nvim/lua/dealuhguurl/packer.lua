@@ -50,6 +50,12 @@ return require('packer').startup(function(use)
     use 'folke/tokyonight.nvim'
     use 'navarasu/onedark.nvim'
 
+    -- Lua
+    require('onedark').setup {
+      style = 'darker'
+    }
+    require('onedark').load()
+    
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
   if packer_bootstrap then
