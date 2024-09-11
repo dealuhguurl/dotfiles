@@ -5,7 +5,7 @@ follow = mouse
 width = 300
 height = 300
 origin = top-right
-font = CaskaydiaMono NF Regular 10
+font = JetBrainsMonoNL Nerd Font 12
 alignment = center
 
 [urgency_low]
