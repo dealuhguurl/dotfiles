@@ -47,9 +47,8 @@ return require('packer').startup(function(use)
     use 'nvim-lua/plenary.nvim'
 
     -- ColorSchemes
-    use 'folke/tokyonight.nvim'
-    use 'navarasu/onedark.nvim'
-    
+    use 'Everblush/nvim' 
+
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
   if packer_bootstrap then
