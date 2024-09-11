@@ -101,7 +101,7 @@ single_file_support = true
 }
 
 -- Javascript & Typescript
-require('lspconfig').tsserver.setup{
+require('lspconfig').ts_ls.setup{
 on_attach = on_attach,
 flags = lsp_flags,
 cmd = { 'typescript-language-server', '--stdio' },
