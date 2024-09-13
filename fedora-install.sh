@@ -2,9 +2,6 @@
 echo 'max_parallel_downloads=20' | sudo tee -a /etc/dnf/dnf.conf
 echo 'fastestmirror=True' | sudo tee -a /etc/dnf/dnf.conf
 
-# packages
-sudo dnf install g++ feh bspwm polybar sxhkd dunst rofi neofetch nodejs clang-tools-extra htop curl neovim dnf-automatic mingw64-gcc-c++ fontawesome-fonts-all flatpak picom flameshot blueman pasystray pavucontrol sqlite kitty keepassxc python3-pip xclip
-
 # flatpak repos
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak update 
@@ -19,7 +16,10 @@ sudo mv automatic.conf /etc/dnf/
 sudo systemctl enable --now dnf-automatic-install.timer
 
 # install icons
-cd && git clone https://github.com/vinceliuice/Tela-icon-theme.git && cd Tela-icon-theme && ./install.sh && cd && sudo rm -r Tela-icon-theme 
+#cd && git clone https://github.com/vinceliuice/Tela-icon-theme.git && cd Tela-icon-theme && ./install.sh && cd && sudo rm -r Tela-icon-theme 
+
+# packages
+sudo dnf install g++ wayland-devel hyprland-devel hyprpaper hyprlock waybar dunst rofi-wayland neofetch nodejs clang-tools-extra htop curl neovim dnf-automatic mingw64-gcc-c++ fontawesome-fonts-all flatpak flameshot blueman pasystray pavucontrol sqlite kitty keepassxc python3-pip xclip
 
 # install codecs & drivers
 sudo dnf install mpv akmod-nvidia
