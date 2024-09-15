@@ -47,7 +47,7 @@ return require('packer').startup(function(use)
     use 'nvim-lua/plenary.nvim'
 
     -- ColorSchemes
-    use 'Everblush/nvim' 
+    use 'dealuhguurl/decay.nvim'
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
