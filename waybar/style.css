@@ -30,12 +30,12 @@ window#waybar.hidden {
   padding: 6px 12px;
   margin: 6px 3px;
   border-radius: 4px;
-  background-color: #101419;
+  background-color: #0d117;
   color: #cdd6f4;
 }
 
 #workspaces button.active {
-  color: #101419;
+  color: #0d117;
   background-color: #cdd6f4;
 }
 
@@ -63,7 +63,7 @@ window#waybar.hidden {
   border-radius: 4px;
   margin: 6px 3px;
   padding: 6px 12px;
-  background-color: #101419;
+  background-color: #0d117;
   color: #181825;
 }
 
@@ -110,17 +110,17 @@ window#waybar.hidden {
 
 #pulseaudio {
   color: #583794;
-  background-color: #101419;
+  background-color: #0d117;
 }
 
 #bluetooth {
   color: #0a9cf5;
-  background-color: #101419;
+  background-color: #0d117;
 }
 
 #network {
   color: #9ece6a;
-  background-color: #101419;
+  background-color: #0d117;
   padding-right: 17px;
 }
 
@@ -128,12 +128,12 @@ window#waybar.hidden {
   font-family: JetBrainsMonoNL Nerd Font;
   font-size: 13px;
   color: #F1F1F1;
-  background-color: #101419;
+  background-color: #0d117;
 }
 
 #custom-power {
   color: #f7768e;
-  background-color: #101419;
+  background-color: #0d117;
   padding-right: 10px;
 }
 
