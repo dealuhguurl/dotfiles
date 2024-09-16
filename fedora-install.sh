@@ -19,7 +19,7 @@ sudo systemctl enable --now dnf-automatic-install.timer
 #cd && git clone https://github.com/vinceliuice/Tela-icon-theme.git && cd Tela-icon-theme && ./install.sh && cd && sudo rm -r Tela-icon-theme 
 
 # packages
-sudo dnf install g++ wayland-devel hyprland-devel hyprpaper hyprlock waybar dunst rofi-wayland neofetch nodejs clang-tools-extra htop curl neovim dnf-automatic mingw64-gcc-c++ fontawesome-fonts-all flatpak flameshot blueman pasystray pavucontrol sqlite kitty keepassxc python3-pip xclip
+sudo dnf install g++ wayland-devel hyprland-devel hyprpaper hyprlock waybar dunst rofi-wayland neofetch nodejs clang-tools-extra htop curl neovim dnf-automatic mingw64-gcc-c++ fontawesome-fonts-all flatpak blueman pasystray pavucontrol sqlite kitty keepassxc python3-pip
 
 # install codecs & drivers
 sudo dnf install mpv akmod-nvidia
