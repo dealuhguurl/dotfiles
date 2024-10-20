@@ -6,4 +6,5 @@ require('dealuhguurl.treesitter')
 require('dealuhguurl.auto-pairs')
 require('dealuhguurl.impatient')
 require('dealuhguurl.telescope')
+require('dealuhguurl.markdown')
 
