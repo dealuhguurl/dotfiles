@@ -7,4 +7,4 @@ require('dealuhguurl.auto-pairs')
 require('dealuhguurl.impatient')
 require('dealuhguurl.telescope')
 require('dealuhguurl.markdown')
-
+require('dealuhguurl.color-scheme')
