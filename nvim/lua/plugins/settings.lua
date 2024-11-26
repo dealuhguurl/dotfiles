@@ -1,18 +1,6 @@
 local opt = vim.opt 
 local cmd = vim.cmd
 
--- colorscheme
-local decay = require("decay")
-opt.background = "dark"
-decay.setup({
-    style = "dark",
-    italics = {
-        code = false,
-        comments = false,
-    },
-})
-cmd.colorscheme "decay-dark"
-
 -- indents and spacing
 opt.tabstop = 4
 opt.shiftwidth = 4

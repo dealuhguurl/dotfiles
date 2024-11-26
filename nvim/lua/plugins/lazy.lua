@@ -30,9 +30,7 @@ require("lazy").setup(
     {
         spec = {
             -- neovim terminal
-            {"NvChad/nvterm", config = function()
-                    require("nvterm").setup()
-                end},
+            {"NvChad/nvterm", config = function() require("nvterm").setup() end},
             -- LspConfig, Snippets, & Completions
             {"neovim/nvim-lspconfig"},
             {"williamboman/nvim-lsp-installer"},
@@ -51,10 +49,19 @@ require("lazy").setup(
             {"nvim-telescope/telescope.nvim"},
             {"onsails/lspkind.nvim"},
             {"nvim-lua/plenary.nvim"},
-            -- ColorSchemes
-            {"Everblush/nvim"},
-            {"decaycs/decay.nvim"},
-
+            -- ColorScheme
+            {
+                "gbprod/nord.nvim",
+                lazy = false,
+                priority = 1000,
+                config = function()
+                    require("nord").setup({})
+                    vim.cmd.colorscheme("nord")
+                end,
+            },
+            install = {
+            colorscheme = { "nord" },
+            },
             -- MarkDown
             {
                 'MeanderingProgrammer/render-markdown.nvim',
@@ -66,10 +73,8 @@ require("lazy").setup(
             },
         },
         -- Configure any other settings here. See the documentation for more details.
-        -- colorscheme that will be used when installing plugins.
-        --install = {colorscheme = {"radium"}},
         -- automatically check for plugin updates
-        checker = {enabled = true}
+        checker = {enabled = false}
     }
 )
 
