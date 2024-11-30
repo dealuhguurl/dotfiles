@@ -13,4 +13,4 @@ opt.updatetime = 50
 opt.fillchars = {eob = " "}
 opt.termguicolors = true
 cmd.set "shortmess=I"
-
+cmd.set "laststatus=0"
