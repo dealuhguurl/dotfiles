@@ -50,18 +50,7 @@ require("lazy").setup(
             {"onsails/lspkind.nvim"},
             {"nvim-lua/plenary.nvim"},
             -- ColorScheme
-            {
-                "gbprod/nord.nvim",
-                lazy = false,
-                priority = 1000,
-                config = function()
-                    require("nord").setup({})
-                    vim.cmd.colorscheme("nord")
-                end,
-            },
-            install = {
-            colorscheme = { "nord" },
-            },
+            {"dealuhguurl/oh-lucy.nvim"},
             -- MarkDown
             {
                 'MeanderingProgrammer/render-markdown.nvim',
