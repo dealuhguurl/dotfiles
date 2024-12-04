@@ -14,3 +14,4 @@ opt.fillchars = {eob = " "}
 opt.termguicolors = true
 cmd.set "shortmess=I"
 cmd.set "laststatus=0"
+cmd.filetype "plugin indent on"
