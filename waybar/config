@@ -16,19 +16,10 @@
         "custom/power",
         "tray"
     ],
-    "wlr/taskbar": {
-        "format": "{icon}",
-        "on-click": "activate",
-        "on-click-right": "fullscreen",
-        "icon-theme": "Tela-dark",
-        "icon-size": 25,
-        "tooltip-format": "{title}"
-    },
     "hyprland/workspaces": {
         "on-click": "activate",
         "format": "{icon}",
         "format-icons": {
-          /*  "default": "", */
             "1": "1",
             "2": "2",
             "3": "3",
@@ -38,8 +29,6 @@
             "7": "7",
             "8": "8",
             "9": "9",
-           /* "active": "󱓻",*/
-           /* "urgent": "󱓻" */
         },
         "persistent_workspaces": {
             "1": [],
@@ -64,7 +53,7 @@
     },
     "clock": {
         "tooltip-format": "{calendar}",
-        "format": "  {:%A, %b %d, %I:%M %p}",
+        "format": "{:%I:%M %p}",
         "nospacing": 1,
     },
     "bluetooth": {
@@ -100,11 +89,7 @@
         "on-click-right": "pavucontrol",
         "on-click":  "amixer set Master mute",
         "on-click-middle": "amixer set Master unmute",
-        "scroll-step": 1
-    },
-    "custom/logo": {
-        "format": " 󰣛 ",
-        "tooltip": false,
+        "scroll-step": 2
     },
     "battery": {
         "format": "{capacity}% {icon}",
