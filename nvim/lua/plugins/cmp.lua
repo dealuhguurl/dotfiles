@@ -1,6 +1,6 @@
 local lspkind = require('lspkind')
 local cmp = require('cmp')
-local api = vim.api
+require('luasnip.loaders.from_vscode').lazy_load()
 
 cmp.setup({
     snippet = {
