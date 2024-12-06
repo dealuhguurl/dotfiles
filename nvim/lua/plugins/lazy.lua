@@ -51,6 +51,18 @@ require("lazy").setup(
             {"nvim-lua/plenary.nvim"},
             -- ColorScheme
             {"dealuhguurl/oh-lucy.nvim"},
+	    {
+		"dealuhguurl/nord.nvim",
+    		lazy = false,
+    		priority = 1000,
+    		config = function()
+      		    require("nord").setup({})
+      		    vim.cmd.colorscheme("nord")
+    		end,
+  	    },
+  	    install = {
+    	    colorscheme = { "nord" },
+  	    },
             -- MarkDown
             {
                 'MeanderingProgrammer/render-markdown.nvim',
