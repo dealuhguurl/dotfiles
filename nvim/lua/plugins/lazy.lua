@@ -40,8 +40,12 @@ require("lazy").setup(
             {"hrsh7th/cmp-path"},
             {"hrsh7th/cmp-buffer"},
             {"hrsh7th/cmp-nvim-lsp-signature-help"},
-            {"L3MON4D3/LuaSnip"},
-            {"windwp/nvim-autopairs"},
+	    {"windwp/nvim-autopairs"},
+	    {"saadparwaiz1/cmp_luasnip"},
+            {
+	     	"L3MON4D3/LuaSnip",
+		dependencies = {"rafamadriz/friendly-snippets"},
+	    },
 	        -- TreeSitter
             {"nvim-treesitter/nvim-treesitter"},
             -- Telescope & DevIcons
@@ -51,18 +55,7 @@ require("lazy").setup(
             {"nvim-lua/plenary.nvim"},
             -- ColorScheme
             {"dealuhguurl/oh-lucy.nvim"},
-	    {
-		"dealuhguurl/nord.nvim",
-    		lazy = false,
-    		priority = 1000,
-    		config = function()
-      		    require("nord").setup({})
-      		    vim.cmd.colorscheme("nord")
-    		end,
-  	    },
-  	    install = {
-    	    colorscheme = { "nord" },
-  	    },
+	    {"dealuhguurl/nord.nvim"},
             -- MarkDown
             {
                 'MeanderingProgrammer/render-markdown.nvim',
