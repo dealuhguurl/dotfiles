@@ -39,7 +39,7 @@ window#waybar {
   box-shadow: inherit;
   text-shadow: inherit;
   color: #000000;
-  background-color: #8c8c8c;
+  background-color: #666666;
 }
 
 #workspaces button.urgent {
@@ -72,6 +72,7 @@ window#waybar {
 }
 
 tooltip {
+  font-size: 14px;
   border-radius: 8px;
   padding: 15px;
   color:  #FFFFFF;
@@ -80,6 +81,7 @@ tooltip {
 }
 
 tooltip label {
+  font-size: 14px;
   padding: 5px;
   color:  #FFFFFF;
   background-color: #666666;
