@@ -1,24 +1,25 @@
+# Transparent bg-color #1e1e1e44
+
 [global]
-frame_color = "#89b4fa"
-separator_color= frame
+frame_color = "#FFFFFF"
 follow = mouse
 width = 300
 height = 300
 origin = top-right
-font = JetBrainsMonoNL Nerd Font 12
+font = DaddyTimeMono Nerd Font 12
 alignment = center
 
 [urgency_low]
-background = "#121217"
-foreground = "#cdd6f4"
+background = "#222222"
+foreground = "#FFFFFF"
 
 [urgency_normal]
-background = "#121217"
-foreground = "#cdd6f4"
+background = "#222222"
+foreground = "#FFFFFF"
 
 [urgency_critical]
-background = "#121217"
-foreground = "#cdd6f4"
-frame_color = "#fab387"
+background = "#222222"
+foreground = "#FFFFFF"
+frame_color = "#F7768E"
 
 
