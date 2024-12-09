@@ -1,4 +1,3 @@
-local opts = {noremap = true, silent = true}
 local on_attach = function(client, bufnr)
     -- Disabling SemanticTokens because it fucks up my colorscheme
     client.server_capabilities.semanticTokensProvider = nil
@@ -19,6 +18,15 @@ end
 
 local lsp_flags = {
     debounce_text_changes = 150
+}
+
+-- JS/TS
+require("lspconfig").ts_ls.setup {
+    on_attach = on_attach,
+    flags =  lsp_flags,
+    cmd = {"typescript-language-server", "--stdio"},
+    filetypes = {"javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx"},
+    single_file_support = true
 }
 
 -- C/C++ lsp
@@ -79,17 +87,8 @@ require("lspconfig").gopls.setup {
     on_attach = on_attach,
     flags = lsp_flags,
     cmd = {"gopls"},
-    filetypes = {"go", "gomod ", "gowork", "gotmpi"},
-    single_file_support = true
-}
-
--- Javascript & Typescript
-require("lspconfig").ts_ls.setup {
-    on_attach = on_attach,
-    flags = lsp_flags,
-    cmd = {"typescript-language-server", "--stdio"},
-    filetypes = {"javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx"},
-    single_file_support = true
+    filetypes = { 'go', 'gomod', 'gowork', 'gotmpl' },
+    single_file_support = true,
 }
 
 -- Lua lsp
@@ -118,26 +117,35 @@ require("lspconfig").lua_ls.setup {
     }
 }
 
--- HTML lsp
--- Enabling broadcast snippet capabilities
+-- Install HTML, CSS, MARKDOWN, JSON, AND ESLINT LSP;
+-- sudo nmp i -g vscode-langservers-extracted
 --Enable (broadcasting) snippet capability for completion
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities.textDocument.completion.completionItem.snippetSupport = true
 
 require("lspconfig").html.setup {
-    capabilities = capabilities,
     on_attach = on_attach,
     flags = lsp_flags,
     cmd = {"vscode-html-language-server", "--stdio"},
-    filetypes = {"html", "js"},
+    filetypes = {"html"},
     single_file_support = true,
-    init_options = {
-        configurationSection = {"html", "css", "javascript"},
-        embeddedLanguages = {
-            css = true,
-            javascript = true
+}
+
+require("lspconfig").cssls.setup {
+    capabilities = capabilities,
+    on_attach = on_attach,
+    cmd = {"vscode-css-language-server", "--stdio"},
+    filetypes = {"css", "scss", "less"},
+    settings = {
+        css = {
+            validate = true
         },
-        provideFormatter = true
+        less = {
+            validate = true
+        },
+        scss = {
+            validate = true
+        }
     }
 }
 
