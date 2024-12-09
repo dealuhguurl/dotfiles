@@ -55,7 +55,7 @@ require("lazy").setup(
             {"nvim-lua/plenary.nvim"},
             -- ColorScheme
             {"dealuhguurl/oh-lucy.nvim"},
-	    {"dealuhguurl/nord.nvim"},
+	    {"dealuhguurl/tokyonight.nvim"},
             -- MarkDown
             {
                 'MeanderingProgrammer/render-markdown.nvim',
