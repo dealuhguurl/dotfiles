@@ -44,7 +44,7 @@
     },
     "memory": {
         "interval": 30,
-        "format": "  {avail:0.2f} GB",
+        "format": "  {used:0.2f} GB",
         "max-length": 100,
         "tooltip": false,
     },
