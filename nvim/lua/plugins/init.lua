@@ -1,0 +1,8 @@
+require('plugins.lazy')
+require('plugins.lspconfig')
+require('plugins.lsp')
+require('plugins.cmp')
+require('plugins.telescope')
+require('plugins.autopairs')
+require('plugins.markdown')
+require('plugins.treesitter')
