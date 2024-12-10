@@ -30,7 +30,7 @@ cmd.filetype "plugin indent on"
 
 -- Set 2 spaces for Lua files
 vim.api.nvim_create_autocmd("FileType", {
-  pattern = "lua",
+  pattern = {"lua", "css"},
   callback = function()
     vim.bo.tabstop = 2       -- Set tab width to 2 spaces
     vim.bo.shiftwidth = 2     -- Set indentation width to 2 spaces
