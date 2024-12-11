@@ -14,8 +14,20 @@ cmp.setup({
         ['<TAB>'] = cmp.mapping.confirm({select = true}),
     }),
     window = {
-        completion = cmp.config.window.bordered(),
-        documentation = cmp.config.window.bordered(),
+      completion = {
+        winhighlight = "Normal:Normal,FloatBorder:FloatBorder",
+        side_padding = 0,
+        col_offset = -4, -- move floating box left or right
+        border = "rounded",
+        scrollbar = false,
+      },
+      documentation = {
+        border = "rounded",
+        side_padding = 0,
+        col_offset = -4,
+        winhighlight = "Normal:Normal,FloatBorder:FloatBorder",
+        scrollbar = false,
+      },
     },
     sources = cmp.config.sources({
         {name = 'luasnip'},
