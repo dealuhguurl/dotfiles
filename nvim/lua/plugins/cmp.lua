@@ -25,7 +25,7 @@ cmp.setup({
         border = "rounded",
         side_padding = 0,
         col_offset = -4,
-        winhighlight = "Normal:Normal,FloatBorder:FloatBorder",
+        winhighlight = "Normal:Normal,FloatBorder:EndOfBuffer",
         scrollbar = false,
       },
     },
@@ -37,7 +37,7 @@ cmp.setup({
         {name = 'path'},
     }),
     formatting = {
-        format = lspkind.cmp_format({
+      format = lspkind.cmp_format({
 	    mode = 'symbol_text',
 	    maxwidth = {
 		    menu = 50,
