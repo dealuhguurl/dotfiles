@@ -6,7 +6,7 @@ follow = mouse
 width = 300
 height = 300
 origin = top-right
-font = DaddyTimeMono Nerd Font 12
+font = Iosevka Comfy Wide Fixed 12.5
 alignment = center
 
 [urgency_low]
