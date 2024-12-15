@@ -2,8 +2,8 @@
 opt.cursorline = true
 
 -- Indents & spacing
-opt.tabstop = 4
-opt.shiftwidth = 4
+opt.tabstop = 2
+opt.shiftwidth = 2
 opt.expandtab = true
 
 -- Highlight searched text
@@ -27,15 +27,5 @@ cmd.set "laststatus=0"
 
 -- Filetype indent
 cmd.filetype "plugin indent on"
-
--- Set 2 spaces for Lua files
-vim.api.nvim_create_autocmd("FileType", {
-  pattern = {"lua", "css"},
-  callback = function()
-    vim.bo.tabstop = 2       -- Set tab width to 2 spaces
-    vim.bo.shiftwidth = 2     -- Set indentation width to 2 spaces
-    vim.bo.expandtab = true   -- Use spaces instead of tabs
-  end,
-})
 
 --cmd.colorscheme "tokyonight-night"
