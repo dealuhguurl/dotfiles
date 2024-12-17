@@ -35,6 +35,7 @@ require("lazy").setup({
     {"hrsh7th/cmp-buffer"},
     {"hrsh7th/cmp-nvim-lsp-signature-help"},
     {"windwp/nvim-autopairs"},
+    {"zbirenbaum/nvterm"},
     {
       "L3MON4D3/LuaSnip",
       dependencies = {
