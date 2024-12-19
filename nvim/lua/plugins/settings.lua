@@ -28,4 +28,4 @@ cmd.set "laststatus=0"
 -- Filetype indent
 cmd.filetype "plugin indent on"
 
---cmd.colorscheme "tokyonight-night"
+--cmd.colorscheme "doom-one"
