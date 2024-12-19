@@ -63,8 +63,7 @@ require("lazy").setup({
       opts = {},
     },
     -- ColorScheme
-    {"dealuhguurl/tokyonight.nvim"},
-    {"rose-pine/neovim"},
+    {"dealuhguurl/doom-one.nivm"},
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
