@@ -15,7 +15,7 @@ cmp.setup({
     }),
     window = {
       completion = {
-        winhighlight = "Normal:Normal,FloatBorder:FloatBorder",
+        winhighlight = "Normal:Normal,FloatBorder:FloatBorder,CursorLine:PmenuSel",
         side_padding = 0,
         col_offset = -4, -- move floating box left or right
         border = "rounded",
