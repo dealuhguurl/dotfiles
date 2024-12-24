@@ -9,7 +9,7 @@ opt.expandtab = true
 -- Set numbers 
 cmd.set "number"
 
--- Remove numbers on left side 
+-- Removes EndOfBuffer tilda symbols
 opt.fillchars = {eob =" "}
 
 -- True colors
@@ -24,4 +24,5 @@ cmd.set "laststatus=0"
 -- Filetype indent
 cmd.filetype "plugin indent on"
 
+--cmd.colorscheme "oh-lucy"
 --cmd.colorscheme "doom-one"
