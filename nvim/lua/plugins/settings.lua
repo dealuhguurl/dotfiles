@@ -6,13 +6,6 @@ opt.tabstop = 2
 opt.shiftwidth = 2
 opt.expandtab = true
 
--- Highlight searched text
-opt.hlsearch = true
-opt.incsearch = true
-
--- Relative Numbers
-opt.relativenumber = true
-
 -- Remove numbers on left side 
 opt.fillchars = {eob =" "}
 
@@ -22,7 +15,7 @@ opt.termguicolors = true
 -- Remove startup text 
 cmd.set "shortmess=I"
 
--- Disable statusline = 0, always show status bar =1 
+-- Disable statusline
 cmd.set "laststatus=0"
 
 -- Filetype indent
