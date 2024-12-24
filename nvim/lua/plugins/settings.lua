@@ -6,6 +6,9 @@ opt.tabstop = 2
 opt.shiftwidth = 2
 opt.expandtab = true
 
+-- Set numbers 
+cmd.set "number"
+
 -- Remove numbers on left side 
 opt.fillchars = {eob =" "}
 
