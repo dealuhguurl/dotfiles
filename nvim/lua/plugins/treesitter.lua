@@ -1,7 +1,6 @@
 require("nvim-treesitter.configs").setup {
-    ensure_installed = {"c", "rust", "cpp", "python", "lua", "typescript", "javascript", "bash", "go", "asm", "html", "css"},
     -- auto install missing parser
-    auto_install = false,
+    auto_install = true,
     highlight = {
         enable = true,
         additional_vim_regex_highlighting = false
