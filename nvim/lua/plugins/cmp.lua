@@ -37,18 +37,15 @@ cmp.setup({
         {name = 'path'},
     }),
     formatting = {
-      format = lspkind.cmp_format({
-	    mode = 'symbol_text',
-	    maxwidth = {
-		    menu = 50,
-		    abbr = 50,
-	    },
-	    ellipsis_char = '...',
-	    show_labelDetails = true,
-	    before = function (entry, vim_item)
-		    return vim_item
-	    end
-	    })
-    }
+    format = lspkind.cmp_format {
+      mode = 'symbol_text',
+      before = function(_entry, vim_item)
+        if vim_item.menu ~= nil and string.len(vim_item.menu) > 0 then
+          vim_item.menu = string.sub(vim_item.menu, 0, 0) .. ""
+        end
+        return vim_item
+      end,
+    },
+  },
 })
 
