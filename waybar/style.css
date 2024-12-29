@@ -6,7 +6,7 @@
 
 window#waybar {
   border-radius: 10px;
-  background-color: #121217;
+  background-color: #0d1117;
   transition-property: background-color;
   transition-duration: 0.5s;
 }
@@ -22,7 +22,7 @@ window#waybar {
   padding: 6px 12px;
   margin: 6px 3px;
   border-radius: 4px;
-  background-color: #121217;
+  background-color: #0d1117;
   color: white;
 }
 
@@ -53,12 +53,12 @@ window#waybar {
   border-radius: 4px;
   margin: 6px 0px;
   padding: 6px 12px;
-  background-color: #121217;
+  background-color: #0d1117;
   color: white;
 }
 
 #mpris {
-  background-color: #121217;
+  background-color: #0d1117;
   color: white;
   animation: repeat;
   animation-name: blink;
@@ -85,7 +85,7 @@ tooltip {
   border-radius: 8px;
   padding: 15px;
   color:  #FFFFFF;
-  background-color: #121217;
+  background-color: #0d1117;
 
 }
 
@@ -93,5 +93,5 @@ tooltip label {
   font-size: 14px;
   padding: 5px;
   color:  #FFFFFF;
-  background-color: #121217;
+  background-color: #0d1117;
 }
