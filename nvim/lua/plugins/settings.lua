@@ -24,5 +24,5 @@ cmd.set "laststatus=0"
 -- Filetype indent
 cmd.filetype "plugin indent on"
 
---cmd.colorscheme "oh-lucy"
---cmd.colorscheme "doom-one"
+-- Colorscheme
+--cmd.colorscheme "decay-dark"
