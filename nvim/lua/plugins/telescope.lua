@@ -10,7 +10,7 @@ require("telescope").setup {
     defaults = {
         prompt_prefix = " ",
         --selection_caret = " ",
-        selection_caret = " ",
+        selection_caret = "󰴈 ",
         --sortring_strategy = "ascending",
         layout_config = {
             horizontal = {
