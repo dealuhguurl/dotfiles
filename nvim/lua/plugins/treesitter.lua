@@ -2,7 +2,7 @@ require("nvim-treesitter.configs").setup {
     -- auto install missing parser
     auto_install = true,
     highlight = {
-        enable = true,
+        enable = false,
         additional_vim_regex_highlighting = false
     },
     incremental_selection = {
