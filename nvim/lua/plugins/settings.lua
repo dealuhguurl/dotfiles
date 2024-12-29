@@ -25,5 +25,4 @@ cmd.set "laststatus=0"
 cmd.filetype "plugin indent on"
 
 -- Colorscheme
--- cmd.colorscheme "doom-one"
---cmd.colorscheme "decay-dark"
+--cmd.colorscheme "doom-one"
