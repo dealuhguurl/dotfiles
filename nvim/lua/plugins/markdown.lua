@@ -2,7 +2,7 @@ require('render-markdown').setup({
     render_modes = true,
     heading = {
         sign = false,
-        icons = { '󰼏 ', '󰎨 ' },
+        icons = { '󰴈 ', '󰴈 ', },
         position = 'inline',
     },
     link = {
