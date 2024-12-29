@@ -63,7 +63,6 @@ require("lazy").setup({
       opts = {},
     },
     -- ColorScheme
-    {"dealuhguurl/decay.nvim"},
     {"dealuhguurl/doom-one.nvim"},
     {"norcalli/nvim-colorizer.lua"},
   },
