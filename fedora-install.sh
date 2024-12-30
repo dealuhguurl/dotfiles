@@ -3,7 +3,7 @@ echo 'max_parallel_downloads=20' | sudo tee -a /etc/dnf/dnf.conf
 echo 'fastestmirror=True' | sudo tee -a /etc/dnf/dnf.conf
 
 # packages
-sudo dnf install g++ wayland-devel hyprland-devel hyprpaper hyprlock waybar dunst rofi-wayland nodejs clang-tools-extra htop neovim mingw64-gcc-c++ fontawesome-fonts-all blueman pasystray pavucontrol network-manager-applet sqlite kitty keepassxc python3-pip
+sudo dnf install g++ wayland-devel zeal hyprland-devel hyprpaper hyprlock waybar dunst rofi-wayland nodejs clang-tools-extra htop neovim mingw64-gcc-c++ fontawesome-fonts-all blueman pasystray pavucontrol network-manager-applet sqlite kitty keepassxc python3-pip
 
 # flatpak repos
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
