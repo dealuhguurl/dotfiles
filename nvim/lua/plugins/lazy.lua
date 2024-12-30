@@ -64,7 +64,9 @@ require("lazy").setup({
     },
     -- ColorScheme
     {"dealuhguurl/doom-one.nvim"},
+    {"dealuhguurl/tokyodark.nvim"},
     {"norcalli/nvim-colorizer.lua"},
+
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
