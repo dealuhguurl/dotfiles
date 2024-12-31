@@ -1,6 +1,7 @@
 require("nvim-treesitter.configs").setup {
     -- auto install missing parser
-    auto_install = true,
+    ensure_installed = { "markdown", "markdown_inline" },
+    auto_install = false,
     highlight = {
         enable = true,
         additional_vim_regex_highlighting = false
@@ -20,8 +21,3 @@ require("nvim-treesitter.configs").setup {
 }
 
 vim.opt.runtimepath:append("$HOME/.local/share/nvim/site/pack/packer/start/nvim-treesitter/parser")
--- This code folds code which is annoying :)
---vim.api.nvim_exec([[
---    set foldmethod=expr
---   set foldexpr=nvim_treesitter#foldexpr()
---]], true)
