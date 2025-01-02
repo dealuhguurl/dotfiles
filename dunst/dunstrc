@@ -10,15 +10,15 @@ font = Iosevka Comfy Wide Fixed 12.5
 alignment = center
 
 [urgency_low]
-background = "#222222"
+background = "#0D1117"
 foreground = "#FFFFFF"
 
 [urgency_normal]
-background = "#222222"
+background = "#0D1117"
 foreground = "#FFFFFF"
 
 [urgency_critical]
-background = "#222222"
+background = "#0D1117"
 foreground = "#FFFFFF"
 frame_color = "#F7768E"
 
