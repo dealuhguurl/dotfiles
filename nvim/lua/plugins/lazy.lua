@@ -63,7 +63,7 @@ require("lazy").setup({
       opts = {},
     },
     -- ColorScheme
-    {"dealuhguurl/tokyodark.nvim"},
+    {"dealuhguurl/poimandres.nvim"},
     {"norcalli/nvim-colorizer.lua"},
 
   },
