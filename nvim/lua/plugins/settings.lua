@@ -26,3 +26,4 @@ cmd.filetype "plugin indent on"
 
 -- Colorscheme
 --cmd.colorscheme "poimandres"
+--cmd.colorscheme "monokai"
