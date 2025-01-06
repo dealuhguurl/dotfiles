@@ -64,6 +64,7 @@ require("lazy").setup({
     },
     -- ColorScheme
     {"dealuhguurl/monokai.nvim"},
+    {"dealuhguurl/cyberdream.nvim"},
     {"norcalli/nvim-colorizer.lua"},
 
   },
