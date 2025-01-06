@@ -25,5 +25,6 @@ cmd.set "laststatus=0"
 cmd.filetype "plugin indent on"
 
 -- Colorscheme
+--cmd.colorscheme "cyberdream"
 --cmd.colorscheme "monokai"
 
