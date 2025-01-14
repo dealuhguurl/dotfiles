@@ -38,7 +38,7 @@
         }
     },
     "mpris": {
-	   "format": " {player_icon} {dynamic}",
+	   "format": "{player_icon} {dynamic}",
 	   "format-paused": "<span color='white'>{status_icon} {dynamic}</span>",
 	   "max-length": 30,
 	   "player-icons": {
