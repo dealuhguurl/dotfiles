@@ -1,8 +1,9 @@
 {
     "layer": "top",
     "position": "top",
-    "margin-left": 1,
-    "margin-right": 1,
+    "margin-top": 0,
+    "margin-left": 13,
+    "margin-right": 13,
     "spacing": 0,
     "height": 44,
     "modules-left": [
@@ -38,17 +39,17 @@
         }
     },
     "mpris": {
-	   "format": "{player_icon} {dynamic}",
-	   "format-paused": "<span color='white'>{status_icon} {dynamic}</span>",
-	   "max-length": 30,
-	   "player-icons": {
-		  "default": "▶",
-		  "mpv": "🎵"
-	   },
-	   "status-icons": {
-		  "paused": "⏸", 
-	   },
-     "tooltip": false,
+	"format": "{player_icon} {dynamic}",
+	"format-paused": "<span color='white'>{status_icon} {dynamic}</span>",
+	"max-length": 30,
+	"player-icons": {
+	    "default": "▶",
+	    "mpv": "🎵"
+	},
+	"status-icons": {
+	"paused": "⏸", 
+	},
+      	"tooltip": false,
     },
     "disk": {
         "interval": 30,
@@ -67,7 +68,7 @@
         "tooltip": false,
     },
     "clock": {
-        "format": "{:%I:%M %p}",
+        "format": "{:%a %I:%M %p}",
         "nospacing": 1,
         "tooltip": false,
     },
