@@ -1,0 +1,66 @@
+{
+    "layer": "top",
+    "position": "top",
+    "margin-top": 3,
+    "margin-left": 13,
+    "margin-right": 13,
+    "spacing": 0,
+    "height": 0,
+    "modules-left": [
+        "hyprland/workspaces",
+    ],
+    "modules-center": [
+        "clock",
+    ],
+    "modules-right": [
+        "tray",
+    ],
+    "hyprland/workspaces": {
+        "on-click": "activate",
+        "format": "{icon}",
+        "format-icons": {
+        },
+        "persistent_workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        }
+    },
+    "mpris": {
+	"format": "{player_icon} {dynamic}",
+	"format-paused": "<span color='white'>{status_icon} {dynamic}</span>",
+	"max-length": 30,
+	"player-icons": {
+	    "default": "▶",
+	    "mpv": "🎵"
+	},
+	"status-icons": {
+	"paused": "⏸", 
+	},
+      	"tooltip": false,
+    },
+    "disk": {
+        "interval": 30,
+        "format": "  {specific_free:0.2f} GB",
+        "unit": "GB",
+        "tooltip": false,
+    },
+    "memory": {
+        "interval": 30,
+        "format": "  {used:0.2f} GB",
+        "max-length": 100,
+        "tooltip": false,
+    },
+    "tray": {
+        "spacing": 10,
+        "tooltip": false,
+    },
+    "clock": {
+        "format": "{:%I:%M}",
+        "format-alt": "{:%a %B %d}",
+        "nospacing": 1,
+        "tooltip": false,
+    },
+}
